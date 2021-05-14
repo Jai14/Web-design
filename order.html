@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>order_food</title>
+<link rel="stylesheet" href="dishes.css">
+</head> 
+<body>
+  <div class="header">
+    <img id="header_logo" src="media/logo.png" alt="Our design"/><br>
+  <em >The dish you need</em>
+  </div>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="order.html">Orders</a>
+    <a href="cart.html">Cart - <span>0</span></a> 
+  </div>
+  <br><br><br><br>
+ <div class="orders">
+  <h2 style="text-align:center">Types of Dishes</h2>
+  <p style="text-align:center">You have 3 types of food to choose for your meal right from starters to deserts</p>
+ </div>
+
+  <div class="columns">
+    <div class="price">
+      <p class="header">Starter</p>
+      <p>A starter is a small quantity of food that is served as the first course of a meal.</p>
+      <button  onclick="window.location.href='starter.html';">order</button>   
+      </div>
+  </div>
+  
+  <div class="columns">
+    <div class="price">
+      <p class="header">Main-course</p>
+      <p>A main course is the featured or primary dish in a meal of several courses.</p>
+      <button onclick="window.location.href='main_course.html';">order</button>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="price">
+      <p class="header">Desert</p>
+      <p>Dessert is a course that concludes a meal,The course consists of sweet foods.</p>
+      <button onclick="window.location.href='desert.html';">order</button>
+    </div>
+  </div>
+  <script src="starter.js"></script>
+</body>
+</html>
+
